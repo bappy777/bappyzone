@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>First Page</title>
+    <style>
+      h1 {
+        color: #fff;
+        text-align: center;
+      }
+      body {
+        background: #c77;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Hello</h1>
+  </body>
+</html>
