@@ -61,13 +61,11 @@ body {
 .totop {
   width: 40px;
   height: 40px;
-  background: #ff5f6d;
-  /* fallback for old browsers */
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: -webkit-gradient(linear, left bottom, left top, from(#FFC371), to(#FF5F6D));
-  background: linear-gradient(to top, #FFC371, #FF5F6D);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  color: #ECF0F1;
+  background: #232526;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(bottom, #414345, #232526);
+	background: -o-linear-gradient(bottom, #414345, #232526);
+	background: linear-gradient(to top, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: orange;
   position: fixed;
   bottom: 40px;
   right: 40px;
@@ -83,7 +81,7 @@ body {
   -o-transition: all linear 0.3s;
 }
 .totop:hover {
-  color: #2C3E50;
+  color: yellow;
 }
 
 /* totop part ends */
